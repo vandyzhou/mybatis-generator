@@ -1,5 +1,8 @@
 package com.zhoumj.generator.utils;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @author mengjie.zhou
  * @version 1.00
@@ -7,4 +10,10 @@ package com.zhoumj.generator.utils;
  * @description
  */
 public class CommonUtils {
+
+    public static String getNow(){
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return sdf.format(date);
+    }
 }
