@@ -9,7 +9,7 @@ import java.util.Date;
  * @date 六月-30-2016,11:33
  * @description
  */
-public class CommonUtils {
+public class DateUtils {
 
     public static String getNow(){
         Date date = new Date();
